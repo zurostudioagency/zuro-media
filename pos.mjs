@@ -10,7 +10,7 @@ const G = 'https://graph.facebook.com/v21.0';
 const E = process.env;
 const UJI = process.argv.includes('--uji');
 const tidur = (ms) => new Promise((r) => setTimeout(r, ms));
-const wib = new Date(Date.now() + 7 * 3600e3).toISOString().slice(0, 10);
+const wib = E.TANGGAL_UJI || new Date(Date.now() + 7 * 3600e3).toISOString().slice(0, 10);
 
 async function api(metode, url, body) {
   const r = await fetch(url, {
