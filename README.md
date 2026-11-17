@@ -1,2 +1,3 @@
 # zuro-media
-File konten publik untuk posting otomatis Zuro Studio
+
+File konten publik Zuro Studio untuk posting otomatis (Instagram, Facebook, TikTok).
